@@ -1,34 +1,56 @@
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f0f0f0;
-  }
-  
-  .container {
-    width: 300px;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  }
-  
-  button {
-    margin-top: 10px;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 300px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+.delete-btn {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+.delete-btn {
+  margin-left: 10px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+.completed {
+    text-decoration: line-through;
+    color: gray;
   }
   
